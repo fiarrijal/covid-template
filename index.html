@@ -12,12 +12,15 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/5659d0154b.js" crossorigin="anonymous"></script>
     <title>COVID-19 Template</title>
   </head>
   <body>
     <section class="header">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-dki.webp"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -56,19 +59,38 @@
               </li>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
+          <div class="lang form-inline">
+           <span><a class="text-lang"><img class="flag-icon" src="img/indonesia.ico">ID</a></span> | 
+           <span><a class="text-lang"><img class="flag-icon" src="img/english.ico">EN</a></span>
+          </div>
         </div>
+      </div>
       </nav>
     </section>
+
+<section class="landing">
+    <div class="jumbotron">
+      <div class="container">
+        <h2 class="display-text">JAKARTA TANGGAP COVID-19</h2>
+        <p class="lead">Hubungi Layanan Jakarta Tanggap COVID-19</p>
+        
+        <p class="lead">
+         <div class="row">
+           <div class="col-md-4"">
+<a class="btn btn-cat"><i class="fas fa-phone-alt"></i>112</a>
+           </div>
+           <div class="col-md-4">
+              <a class="btn btn-cat"><i class="fas fa-phone-alt"></i> 081 112 112 112 </a>
+               </div>
+              <div class="col-md-4"">
+              <a class="btn btn-cat"><i class="fas fa-phone-alt"></i> 081 388 376 955</a>
+            </div>
+         </div>
+        </p>
+      </div>
+    </div>
+</section>
+
+
   </body>
 </html>

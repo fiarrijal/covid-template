@@ -1,3 +1,46 @@
 body {
   font-family: "Helvetica", "Montserrat";
 }
+
+.flag-icon {
+  height: 23px;
+  width; 25px;
+  margin-right:5px;
+}
+
+.lang span{
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.text-lang{
+  color: rgba(122, 117, 117, 1)!important; 
+}
+
+.text-lang:hover{
+  color: black !important; 
+}
+
+.jumbotron{
+  text-align: center;
+  color: white;
+  background: rgb(9,9,121);
+  background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgb(14, 100, 230) 100%); 
+}
+
+.display-text{
+  font-weight: bold;
+}
+
+.btn-cat{
+  background-color: rgb(14, 204, 230);
+  border-radius: 20px;
+  color: white;
+  width: 100%;
+  margin: 5px 0px;
+  font-weight: bold;
+}
+
+.btn-cat:hover{
+  background-color: blue;
+}
